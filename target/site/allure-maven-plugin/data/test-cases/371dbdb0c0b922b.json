@@ -1,0 +1,153 @@
+{
+  "uid" : "371dbdb0c0b922b",
+  "name" : "Create order without ingredients",
+  "fullName" : "OrderCreationTest.createOrderWithoutIngredients",
+  "historyId" : "179d632a2bb312eeddaf4572ce492f86",
+  "time" : {
+    "start" : 1749733784190,
+    "stop" : 1749733786846,
+    "duration" : 2656
+  },
+  "description" : "Try to create an order with empty ingredient list",
+  "descriptionHtml" : "<p>Try to create an order with empty ingredient list</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Try to create an order with empty ingredient list",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Generate test user data",
+      "time" : {
+        "start" : 1749733784192,
+        "stop" : 1749733784229,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Register test user and retrieve access token",
+      "time" : {
+        "start" : 1749733784229,
+        "stop" : 1749733784795,
+        "duration" : 566
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Fetch ingredient IDs for order",
+      "time" : {
+        "start" : 1749733784795,
+        "stop" : 1749733785331,
+        "duration" : 536
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Send request to create order",
+      "time" : {
+        "start" : 1749733785332,
+        "stop" : 1749733785771,
+        "duration" : 439
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "json",
+        "value" : "{\"ingredients\":[]}"
+      }, {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NGFkMTk4OWVkMjgwMDAxYjYxYWRmZSIsImlhdCI6MTc0OTczMzc4NCwiZXhwIjoxNzQ5NzM0OTg0fQ.81CkOFOgaw3sGmpajhx1GfKvg3ie6BEGBg8rHZET0NM"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Deleting user by accessToken",
+      "time" : {
+        "start" : 1749733785823,
+        "stop" : 1749733786846,
+        "duration" : 1023
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NGFkMTk4OWVkMjgwMDAxYjYxYWRmZSIsImlhdCI6MTc0OTczMzc4NCwiZXhwIjoxNzQ5NzM0OTg0fQ.81CkOFOgaw3sGmpajhx1GfKvg3ie6BEGBg8rHZET0NM"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "OrderCreationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createOrderWithoutIngredients"
+  }, {
+    "name" : "suite",
+    "value" : "OrderCreationTest"
+  }, {
+    "name" : "host",
+    "value" : "TyTHeTaK"
+  }, {
+    "name" : "thread",
+    "value" : "14716@TyTHeTaK.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "371dbdb0c0b922b.json",
+  "parameterValues" : [ ]
+}

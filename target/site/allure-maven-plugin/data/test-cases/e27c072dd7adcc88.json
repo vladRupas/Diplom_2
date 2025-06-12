@@ -1,0 +1,153 @@
+{
+  "uid" : "e27c072dd7adcc88",
+  "name" : "Create order with ingredients",
+  "fullName" : "OrderCreationTest.createOrderWithIngredients",
+  "historyId" : "a1f7368d89ddfddcd7fa36ffb456da8d",
+  "time" : {
+    "start" : 1749733778866,
+    "stop" : 1749733784182,
+    "duration" : 5316
+  },
+  "description" : "Create an order with valid ingredients",
+  "descriptionHtml" : "<p>Create an order with valid ingredients</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Create an order with valid ingredients",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Generate test user data",
+      "time" : {
+        "start" : 1749733778866,
+        "stop" : 1749733778887,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Register test user and retrieve access token",
+      "time" : {
+        "start" : 1749733778887,
+        "stop" : 1749733779381,
+        "duration" : 494
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Fetch ingredient IDs for order",
+      "time" : {
+        "start" : 1749733779381,
+        "stop" : 1749733779789,
+        "duration" : 408
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Send request to create order",
+      "time" : {
+        "start" : 1749733779789,
+        "stop" : 1749733783023,
+        "duration" : 3234
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "json",
+        "value" : "{\"ingredients\":[\"61c0c5a71d1f82001bdaaa6d\",\"61c0c5a71d1f82001bdaaa6f\",\"61c0c5a71d1f82001bdaaa70\",\"61c0c5a71d1f82001bdaaa71\",\"61c0c5a71d1f82001bdaaa72\",\"61c0c5a71d1f82001bdaaa6e\",\"61c0c5a71d1f82001bdaaa73\",\"61c0c5a71d1f82001bdaaa74\",\"61c0c5a71d1f82001bdaaa6c\",\"61c0c5a71d1f82001bdaaa75\",\"61c0c5a71d1f82001bdaaa76\",\"61c0c5a71d1f82001bdaaa77\",\"61c0c5a71d1f82001bdaaa78\",\"61c0c5a71d1f82001bdaaa79\",\"61c0c5a71d1f82001bdaaa7a\"]}"
+      }, {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NGFkMTkzOWVkMjgwMDAxYjYxYWRmYiIsImlhdCI6MTc0OTczMzc3OSwiZXhwIjoxNzQ5NzM0OTc5fQ.2yaZc6x-ntqqedSv0mIAi2lbRY3WpmBY_AX6Y7nQSGM"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Deleting user by accessToken",
+      "time" : {
+        "start" : 1749733783093,
+        "stop" : 1749733784182,
+        "duration" : 1089
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NGFkMTkzOWVkMjgwMDAxYjYxYWRmYiIsImlhdCI6MTc0OTczMzc3OSwiZXhwIjoxNzQ5NzM0OTc5fQ.2yaZc6x-ntqqedSv0mIAi2lbRY3WpmBY_AX6Y7nQSGM"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "OrderCreationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createOrderWithIngredients"
+  }, {
+    "name" : "suite",
+    "value" : "OrderCreationTest"
+  }, {
+    "name" : "host",
+    "value" : "TyTHeTaK"
+  }, {
+    "name" : "thread",
+    "value" : "14716@TyTHeTaK.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e27c072dd7adcc88.json",
+  "parameterValues" : [ ]
+}

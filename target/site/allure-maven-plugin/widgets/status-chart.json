@@ -1,0 +1,81 @@
+[ {
+  "uid" : "38ec751d29f9f0e5",
+  "name" : "User registration and login test",
+  "time" : {
+    "start" : 1749733792074,
+    "stop" : 1749733795177,
+    "duration" : 3103
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "10021c898efd1234",
+  "name" : "Create order without authorization",
+  "time" : {
+    "start" : 1749733776290,
+    "stop" : 1749733778857,
+    "duration" : 2567
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e8313c37aee2e67",
+  "name" : "Create order with authorization",
+  "time" : {
+    "start" : 1749733786854,
+    "stop" : 1749733792069,
+    "duration" : 5215
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "371dbdb0c0b922b",
+  "name" : "Create order without ingredients",
+  "time" : {
+    "start" : 1749733784190,
+    "stop" : 1749733786846,
+    "duration" : 2656
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e27c072dd7adcc88",
+  "name" : "Create order with ingredients",
+  "time" : {
+    "start" : 1749733778866,
+    "stop" : 1749733784182,
+    "duration" : 5316
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b6517ba0061dbcd",
+  "name" : "User Creation",
+  "time" : {
+    "start" : 1749733766221,
+    "stop" : 1749733773744,
+    "duration" : 7523
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c6e31a602a5be8d",
+  "name" : "Create order with invalid ingredient hashes",
+  "time" : {
+    "start" : 1749733773817,
+    "stop" : 1749733776274,
+    "duration" : 2457
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6c02aafd02776d89",
+  "name" : "Update user data with and without authorization",
+  "time" : {
+    "start" : 1749733795185,
+    "stop" : 1749733797782,
+    "duration" : 2597
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

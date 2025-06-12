@@ -1,0 +1,153 @@
+{
+  "uid" : "10021c898efd1234",
+  "name" : "Create order without authorization",
+  "fullName" : "OrderCreationTest.createOrderWithoutAuthorization",
+  "historyId" : "e4d5f53beaf233544568df921c2f60c9",
+  "time" : {
+    "start" : 1749733776290,
+    "stop" : 1749733778857,
+    "duration" : 2567
+  },
+  "description" : "Checks that an order can be created without providing authorization",
+  "descriptionHtml" : "<p>Checks that an order can be created without providing authorization</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Checks that an order can be created without providing authorization",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Generate test user data",
+      "time" : {
+        "start" : 1749733776290,
+        "stop" : 1749733776324,
+        "duration" : 34
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Register test user and retrieve access token",
+      "time" : {
+        "start" : 1749733776324,
+        "stop" : 1749733776813,
+        "duration" : 489
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Fetch ingredient IDs for order",
+      "time" : {
+        "start" : 1749733776813,
+        "stop" : 1749733777291,
+        "duration" : 478
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Send request to create order",
+      "time" : {
+        "start" : 1749733777292,
+        "stop" : 1749733777881,
+        "duration" : 589
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "json",
+        "value" : "{\"ingredients\":[\"61c0c5a71d1f82001bdaaa6d\",\"61c0c5a71d1f82001bdaaa6f\",\"61c0c5a71d1f82001bdaaa70\",\"61c0c5a71d1f82001bdaaa71\",\"61c0c5a71d1f82001bdaaa72\",\"61c0c5a71d1f82001bdaaa6e\",\"61c0c5a71d1f82001bdaaa73\",\"61c0c5a71d1f82001bdaaa74\",\"61c0c5a71d1f82001bdaaa6c\",\"61c0c5a71d1f82001bdaaa75\",\"61c0c5a71d1f82001bdaaa76\",\"61c0c5a71d1f82001bdaaa77\",\"61c0c5a71d1f82001bdaaa78\",\"61c0c5a71d1f82001bdaaa79\",\"61c0c5a71d1f82001bdaaa7a\"]}"
+      }, {
+        "name" : "token",
+        "value" : "null"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Deleting user by accessToken",
+      "time" : {
+        "start" : 1749733777934,
+        "stop" : 1749733778857,
+        "duration" : 923
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NGFkMTkwOWVkMjgwMDAxYjYxYWRmOSIsImlhdCI6MTc0OTczMzc3NiwiZXhwIjoxNzQ5NzM0OTc2fQ.FnLd2Fay40TwJlpAvErrnnxllt2rcztvBb-DW7rPapA"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "OrderCreationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createOrderWithoutAuthorization"
+  }, {
+    "name" : "suite",
+    "value" : "OrderCreationTest"
+  }, {
+    "name" : "host",
+    "value" : "TyTHeTaK"
+  }, {
+    "name" : "thread",
+    "value" : "14716@TyTHeTaK.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "10021c898efd1234.json",
+  "parameterValues" : [ ]
+}
