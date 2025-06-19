@@ -85,18 +85,20 @@ public class UserUpdateTest {
 
     @Step("Update user data with auth")
     private Response updateUserWithAuth(String newEmail, String newName) {
+        UpdateUserRequest update = new UpdateUserRequest(newEmail, newName);
         return given()
                 .header("Content-type", "application/json")
                 .header("Authorization", accessToken)
-                .body(String.format("{\"email\":\"%s\",\"name\":\"%s\"}", newEmail, newName))
+                .body(gson.toJson(update))
                 .patch("/api/auth/user");
     }
 
     @Step("Update user data without auth")
     private Response updateUserWithoutAuth(String newEmail, String newName) {
+        UpdateUserRequest update = new UpdateUserRequest(newEmail, newName);
         return given()
                 .header("Content-type", "application/json")
-                .body(String.format("{\"email\":\"%s\",\"name\":\"%s\"}", newEmail, newName))
+                .body(gson.toJson(update))
                 .patch("/api/auth/user");
     }
 
