@@ -1,0 +1,153 @@
+{
+  "uid" : "6c6e31a602a5be8d",
+  "name" : "Create order with invalid ingredient hashes",
+  "fullName" : "OrderCreationTest.createOrderWithInvalidIngredients",
+  "historyId" : "a7e7c8415de72233808052e47fbe2d43",
+  "time" : {
+    "start" : 1749733773817,
+    "stop" : 1749733776274,
+    "duration" : 2457
+  },
+  "description" : "Try to create an order with invalid ingredient IDs",
+  "descriptionHtml" : "<p>Try to create an order with invalid ingredient IDs</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Try to create an order with invalid ingredient IDs",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Generate test user data",
+      "time" : {
+        "start" : 1749733773817,
+        "stop" : 1749733773884,
+        "duration" : 67
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Register test user and retrieve access token",
+      "time" : {
+        "start" : 1749733773884,
+        "stop" : 1749733774420,
+        "duration" : 536
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Fetch ingredient IDs for order",
+      "time" : {
+        "start" : 1749733774420,
+        "stop" : 1749733774991,
+        "duration" : 571
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Send request to create order",
+      "time" : {
+        "start" : 1749733774993,
+        "stop" : 1749733775373,
+        "duration" : 380
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "json",
+        "value" : "{\"ingredients\":[\"invalid_hash_1\",\"invalid_hash_2\"]}"
+      }, {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NGFkMThlOWVkMjgwMDAxYjYxYWRmNyIsImlhdCI6MTc0OTczMzc3NCwiZXhwIjoxNzQ5NzM0OTc0fQ.m3rdWQDxDoXGedCBzi7vsntMfL8UgmCUXpevQjR4gYg"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Deleting user by accessToken",
+      "time" : {
+        "start" : 1749733775375,
+        "stop" : 1749733776274,
+        "duration" : 899
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NGFkMThlOWVkMjgwMDAxYjYxYWRmNyIsImlhdCI6MTc0OTczMzc3NCwiZXhwIjoxNzQ5NzM0OTc0fQ.m3rdWQDxDoXGedCBzi7vsntMfL8UgmCUXpevQjR4gYg"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "OrderCreationTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createOrderWithInvalidIngredients"
+  }, {
+    "name" : "suite",
+    "value" : "OrderCreationTest"
+  }, {
+    "name" : "host",
+    "value" : "TyTHeTaK"
+  }, {
+    "name" : "thread",
+    "value" : "14716@TyTHeTaK.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6c6e31a602a5be8d.json",
+  "parameterValues" : [ ]
+}

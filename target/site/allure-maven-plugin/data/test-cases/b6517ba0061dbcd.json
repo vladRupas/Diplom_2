@@ -1,0 +1,192 @@
+{
+  "uid" : "b6517ba0061dbcd",
+  "name" : "User Creation",
+  "fullName" : "NewUserTest.createUser",
+  "historyId" : "aac6874b27deee1b9082279d9cb8ecd0",
+  "time" : {
+    "start" : 1749733766221,
+    "stop" : 1749733773744,
+    "duration" : 7523
+  },
+  "description" : "Testing new user creation with various scenarios",
+  "descriptionHtml" : "<p>Testing new user creation with various scenarios</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Testing new user creation with various scenarios",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Generating test data",
+      "time" : {
+        "start" : 1749733767089,
+        "stop" : 1749733767285,
+        "duration" : 196
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Creating a user with valid data",
+      "time" : {
+        "start" : 1749733767300,
+        "stop" : 1749733769327,
+        "duration" : 2027
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "json",
+        "value" : "{\"email\":\"conchita.waelchi@gmail.com\",\"password\":\"eq23vbonzdsmk\",\"name\":\"Alverta\"}"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Attempting to recreate user",
+      "time" : {
+        "start" : 1749733770379,
+        "stop" : 1749733770942,
+        "duration" : 563
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "json",
+        "value" : "{\"email\":\"conchita.waelchi@gmail.com\",\"password\":\"eq23vbonzdsmk\",\"name\":\"Alverta\"}"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Creating a user without email",
+      "time" : {
+        "start" : 1749733770979,
+        "stop" : 1749733771557,
+        "duration" : 578
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "json",
+        "value" : "{\"password\":\"eq23vbonzdsmk\",\"name\":\"Alverta\"}"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Creating a user without password",
+      "time" : {
+        "start" : 1749733771593,
+        "stop" : 1749733772161,
+        "duration" : 568
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "json",
+        "value" : "{\"email\":\"conchita.waelchi@gmail.com\",\"name\":\"Alverta\"}"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Creating a user without name",
+      "time" : {
+        "start" : 1749733772197,
+        "stop" : 1749733772732,
+        "duration" : 535
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "json",
+        "value" : "{\"email\":\"conchita.waelchi@gmail.com\",\"password\":\"eq23vbonzdsmk\"}"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Deleting user by accessToken",
+      "time" : {
+        "start" : 1749733772763,
+        "stop" : 1749733773742,
+        "duration" : 979
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "accessToken",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NGFkMTg5OWVkMjgwMDAxYjYxYWRmNSIsImlhdCI6MTc0OTczMzc2OSwiZXhwIjoxNzQ5NzM0OTY5fQ.OmY0O_cKEo2qC2hT7BWJDNO4nZvcJIIjoJzz9RD6dpU"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "NewUserTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "createUser"
+  }, {
+    "name" : "suite",
+    "value" : "NewUserTest"
+  }, {
+    "name" : "host",
+    "value" : "TyTHeTaK"
+  }, {
+    "name" : "thread",
+    "value" : "14716@TyTHeTaK.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b6517ba0061dbcd.json",
+  "parameterValues" : [ ]
+}

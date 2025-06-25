@@ -1,0 +1,171 @@
+{
+  "uid" : "38ec751d29f9f0e5",
+  "name" : "User registration and login test",
+  "fullName" : "UserLoginTest.userRegistrationAndLogin",
+  "historyId" : "2e8e6643be69275f5af95b24f496a78c",
+  "time" : {
+    "start" : 1749733792074,
+    "stop" : 1749733795177,
+    "duration" : 3103
+  },
+  "description" : "Create user, login with correct and incorrect credentials, verify responses",
+  "descriptionHtml" : "<p>Create user, login with correct and incorrect credentials, verify responses</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "Create user, login with correct and incorrect credentials, verify responses",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Generate test user data",
+      "time" : {
+        "start" : 1749733792074,
+        "stop" : 1749733792083,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Create user",
+      "time" : {
+        "start" : 1749733792083,
+        "stop" : 1749733792586,
+        "duration" : 503
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : false,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Login user",
+      "time" : {
+        "start" : 1749733792586,
+        "stop" : 1749733793084,
+        "duration" : 498
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "credentials",
+        "value" : "Login@7b335fc8"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Login user",
+      "time" : {
+        "start" : 1749733793160,
+        "stop" : 1749733793672,
+        "duration" : 512
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "credentials",
+        "value" : "Login@33e0224e"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Login user",
+      "time" : {
+        "start" : 1749733793720,
+        "stop" : 1749733794217,
+        "duration" : 497
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "credentials",
+        "value" : "Login@333a90ca"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    }, {
+      "name" : "Deleting user by accessToken",
+      "time" : {
+        "start" : 1749733794261,
+        "stop" : 1749733795177,
+        "duration" : 916
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "token",
+        "value" : "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY4NGFkMWEwOWVkMjgwMDAxYjYxYWUwMyIsImlhdCI6MTc0OTczMzc5MywiZXhwIjoxNzQ5NzM0OTkzfQ.g-f_Rz5QgCwM8dco279bKVQC1aS5Sb5Bw_NQn9mllGg"
+      } ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "UserLoginTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "userRegistrationAndLogin"
+  }, {
+    "name" : "suite",
+    "value" : "UserLoginTest"
+  }, {
+    "name" : "host",
+    "value" : "TyTHeTaK"
+  }, {
+    "name" : "thread",
+    "value" : "14716@TyTHeTaK.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "38ec751d29f9f0e5.json",
+  "parameterValues" : [ ]
+}
